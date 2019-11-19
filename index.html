@@ -1,0 +1,226 @@
+﻿<!doctype html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+
+</script>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Abigail Schafer</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<nav>
+		<a class="noreact">Abigail Schafer</a>
+		<a class="noreact">• • • • •</a>
+		<a href="#body">Home</a>
+		<a href="cv.pdf">CV</a>
+		<a href="#portfolio">Art</a>
+		<a href="#projects">Code</a>
+		<a href="#contact">Contact Me</a>
+
+</nav>
+<style>
+#myvid{
+position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+	z-index: -10;}
+</style>
+
+<!-- <header>
+		<h1>Abigail Schafer</h1>
+</header> -->
+<body id="body" style="height:100%; width:100%; position:absolute; text-align:center;">
+	<!-- <div class="loader-wrapper" id="loader-4">
+			<div id="loader">*</div>
+			<div id="loader">*</div>
+			<div id="loader">*</div>
+			<div id="loader">*</div>
+			<div id="loader">*</div>
+			<div id="loader">*</div>
+			<div id="loader">*</div>
+	</div> -->
+
+<section style="text-align:center; height:20%;">
+
+	<h1> Hi there!</h1>
+</section>
+
+<section style="display:flex; width: 80%; position:relative; left:10%; height:70%;padding-bottom:0; margin-bottom:0;">
+		<div>
+			<h2> Some things about me.</h2>
+			<p>Hi! My name is Abigail Schafer and I'm a second year Computer Science student at Concordia University. I'm doing a second major in Computation Arts - that means graphic design, front end programming, video and sound editting.
+			I like to explore spaces with code and graphic design. In my spare time I'm an avid reader, I swim all summer, snowboard all winter and run all year round. This is my site, feel free to look around!</p>
+	</div>
+	<img src="girl.svg" style="width: 40%;top:15%;">
+</section>
+<a href="#skills" style="align:center; font-size:50px; text-decoration:none;">﹀</a>
+<div id="skills"style ="width:80%; background-color: white; height:1px; margin-left: 10%; padding:0; margin-bottom:5%;"></div>
+
+	<h2>Some of my skills.</h2>
+	<section style="display:flex; margin:0; padding:0; width:80%; position:relative; left:10%;">
+		<!-- <div style="padding:0;"> -->
+		<p><b>Object-Oriented Programming:</b> <br> Java  //  C++</p>
+		<p><b>Web programming:</b> <br> HTML  //  CSS  //  Javascript (Ajax, Node) </p>
+		<p></p>
+	<!-- </div> -->
+	<!-- <div style="padding:0;"> -->
+		<p><b>Version Control:</b><br> Github</p>
+		<p><b>Adobe Software:</b><br> Illustrator // Premiere // After Effects // Audition</p>
+	<!-- </div> -->
+	</section>
+
+<!-- PORTFOLIO -->
+<div id="portfolio" style ="width:80%; background-color: white; height:1px; float: left; margin-left: 10%; padding:0; margin-top:5%;"></div>
+<section style="padding: 50px; padding-bottom: 0px; height: auto; text-align: center;">
+	<h1  style="padding:0; margin:0;"> Portfolio ( Art! )</h1>
+	<p class="pointDown">☟</p>
+</section>
+<h2> HackConcordia </h2>
+<section style="display:flex; flex-direction:column; position: relative;padding-top: 30px; height:auto;">
+<div style="padding:0; margin:0; width: 80%; align-self:center;">
+	<p><b>Tools: Adobe Illustrator</b><br>
+		Date: August 2019 - present<br>
+		As lead of the HackConcordia design team, I am responsible for producing all visuals associated with HackConcordia and their hackathon,
+		ConUHacks. This involves design for social media, website design ( visible <a href="https://conuhacks.io/" target='_blank' >here<a> ) , swag design, etc. Working with the
+		HackConcordia team has been an incredible experience.<br> ☞ <a href="https://conuhacks.io/" target='_blank' >ConUHacks Website</a></p>
+	</div>
+<div style="display:flex; height: 50%;">
+<img src="joinSocialMedia.jpg" style="width: 23%; height: 80%;top:15%; border: solid 1px black; padding: 0; border-radius: 30px;">
+<img src="crossPromotion.jpg" style="width:23%;top:15%; border: solid 1px black; padding: 0; border-radius: 30px">
+<img src="thanksgiving.jpg" style="width:23%;height: 80%;top:15%; border: solid 1px black; padding: 0; border-radius: 30px;">
+<img src="bostonHacks.jpg" style="width:23%;height: 80%;top:15%; border: solid 1px black; padding: 0; border-radius: 30px;">
+</div>
+</section>
+
+<p class="pointDown">☟</p>
+<h2> ImaginAtlas </h2>
+<section style="display:flex; flex-direction:column; position: relative;padding-top: 30px; height:auto;">
+	<div style="padding:0; margin:0; width: 80%; align-self:center;">
+		<p style="padding-left:10%; padding-right:10%;"><b>Tools: Adobe Illustrator</b><br> Date: Spring 2019<br> Rebranding of Marianopolis College's Literary Magazine, ImaginAtlas. Hired to recreate all logo-design and branding material.
+		<br> ☞ <a href="https://imaginatlas.ca/" target='_blank' >ImaginAtlas Website</a></p>
+	</div>
+	<div style="display:flex; padding-top:0;margin:0;width:80%; align-self:center;">
+		<img src="LogoAllWhite.svg" style="width:60%;">
+		<img src="StampNegativeNoBG.svg" style="width:30%;">
+	</div>
+
+<p class="pointDown">☟</p>
+<h2>Breath - Animation Project</h2>
+<section style="display:flex; flex-direction:column; position: relative;padding-top: 30px; height:auto;">
+<div>
+	<video controls poster="project2Poster.png" id="myVid" style="width: 70%; right:15%; top:15%; border-radius: 30px;">
+		<source src="project2.mp4" type="video/mp4">
+	</video>
+</div>
+<div style="padding-top: 0;">
+	<p style="padding-left:15%;padding-right:15%;">
+		<b>Tools: Adobe After Effects, Premiere Pro and Audition</b><br>
+		Date: Spring 2019
+	<br>Sound recorded in a pool setting, editted and overlayed with breathing in Adobe Audition. Video footage editted in Adobe Premiere, and animation created in Adobe After Effects.
+	</p>
+</div>
+
+</section>
+
+  <p style="align-self:center;"> For some of my older artworks, click <a href="portfolio.pdf">here!</a></p>
+
+
+</section>
+<!-- PROJECTS -->
+<div id="projects" style ="width:80%; background-color: white; height:1px; float: left; margin-left: 10%; padding:0;"></div>
+<section style="padding: 50px; padding-bottom: 0px; height: auto; text-align: center;">
+	<h1  style="padding:0; margin:0;"> Projects ( Code! )</h1>
+	<p class="pointDown">☟</p>
+</section>
+
+<h2><b>Game of Risk</b></h2>
+<section style="display:flex; position:relative; width:80%; left:10%; ">
+	<div style="position:relative;">
+		<img src="risk.png" style="border: solid 1px black;height:70%; width:90%;position: absolute;top:15%; right:5%; border: solid 1px black; padding: 0; border-radius: 30px;" >
+	</div>
+	<div>
+		<p style="margin-top: 0">
+				<b>Language: C++</b><br>
+				Project in progress.<br>
+					<br><b>Finished Elements:</b> Players, cards, dice, map, maploader, game engine (i.e. startup phase and looping through reinforce phase, attack phase and fortify phase),
+					display for game phases and game statistics (using observer pattern), adapter (in order to read and implement different map formats).
+					<br><b>In Progress:</b> Strategy pattern (allows user to choose a level of difficulty), and tournament feature (allows user to play several games in sequence at different difficulties, from a selection of maps and opponents).
+					<br>This project is a collaberation with two other students, Rea Sharma and Ziad H.
+				</p>
+</section>
+
+<p class="pointDown">☟</p>
+<h2> Temperature Visualization </h2>
+<section style="display:flex; padding-top: 30px; position:relative; width:80%; left:10%;">
+	<div style="width:100%;">
+		<p style="margin-top: 10%; text-align:right;"><b>Languages: HTML/CSS and PHP, Ajax, JQuery, Json</b> <br> Date: September 2019</p>
+		<p >This page allows you to convert a temperature from celsius to fahrenheit, then stores that data using php and surprises you with a little visualization based on the temperature you chose, created with jquery.
+			<br> ☞ <a href="https://hybrid.concordia.ca/A_CHAFER/exercise5/exerciseForm.php" target='_blank' >Project can be viewed here.</a> </p>
+	</div>
+  <div style="position: relative; width: 100%;">
+<video  style="border: solid 1px black;height:70%; position:absolute; top:15%; padding: 0;border-radius: 30px; right:15%;" autoplay muted loop>
+  <source src="converter.mp4" type="video/mp4">
+</video>
+  </div>
+</section>
+
+	<p class="pointDown">☟</p>
+<h2>Database Organization</h2>
+<section style="display:flex; padding-top: 30px;  position:relative; width:80%; left:10%;">
+  <div style="position:relative;">
+		<img src="bookDatabase.png" style="border: solid 1px black;height:70%; width: 70%; position: absolute;top:15%; border: solid 1px black; padding: 0; border-radius: 30px;" >
+	</div>
+  <div>
+		<p>
+<b>Language: Java</b>
+<br> Date: January 2019</p>
+	<p style="text-align:justify;">
+Database storage system for use in a store - in this case, created with the intent of being used for a bookstore. Allows the user to search for an item by several combinations of attributes, enter, edit or delete an item. It additionally allows the user to edit an item already entered.
+<br> ☞ <a href="https://github.com/AbbyAljc/storeDatabase-Java-" target='_blank' >Project code can be viewed here</a>.
+</p>
+	</div>
+</section>
+
+<p class="pointDown">☟</p>
+<h2>User Registration</h2>
+<section style="display:flex; padding-top: 30px; position:relative; width:80%; left:10%; ">
+<div>
+	<p style="text-align:right;">
+<b>Language: SQLite, HTML/CSS, php</b><br> Date: November 2019</p>
+<p style="text-align:justify;">
+Database storage system for use on a website. Registration system, stores user information and checks if usernames already exist. Paired with a viewing page for the administrator, where users can be searched by their information.
+<br> ☞ <a href="https://hybrid.concordia.ca/A_CHAFER/cart351/exercise6/registerEx.php" target='_blank' >Project can be viewed here</a>.
+</p>
+</div>
+<div style="position:relative;">
+	<img src="sqlData.png" style="border: solid 1px black;height:70%; width: 70%; position: absolute;top:15%; border: solid 1px black; padding: 0; border-radius: 30px;" >
+</div>
+</section>
+<div id="contact" style ="width:80%; background-color: white; height:1px; margin-left: 10%; padding:0;"></div>
+	<h2 style="padding-top: 5%;"> Want to contact me?</h2>
+<section style="height:80%; display: flex;">
+<div style="display:flex; flex-direction:column;">
+<button onclick="copyToClipboard('#p1')" style="font-family: 'Raleway', sans-serif;background: none;border: none; cursor: pointer; color:#ffda9f; font-size: 20px;"><b>Click here to copy my email to your clipboard ➣</b></button>
+<a href="https://www.linkedin.com/in/abigail-schafer-8b7033174/" target='_blank' style="cursor: pointer; color:#ffbb9f; font-size: 20px; padding-top:2%; text-decoration: none;"> <b>Or connect with me on LinkedIn here 〄</b></a>
+<a href="https://github.com/AbbyAljc" target='_blank' style="cursor: pointer; color:#ffa09f; font-size: 20px; padding-top:2%; text-decoration: none;"> <b>Or check out my GitHub ⊨</b></a>
+<a href="https://www.instagram.com/_abbyschaf/"target='_blank'  style="cursor: pointer; color:#ff909f; font-size: 20px; padding-top:2%; text-decoration: none;"> <b>Or Instagram ☄</b></a>
+</div>
+</section>
+<p id="p1" style="display:none;"> abby.aljc27@gmail.com</p>
+</body>
+</html>
